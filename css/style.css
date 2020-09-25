@@ -8,6 +8,7 @@ padding: 0;
 
 header {
     background-color: #333333;
+    text-align: center;
 }
 
 h1 {
@@ -16,3 +17,34 @@ h1 {
     margin: auto;
     padding: auto;
 }
+
+.container {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+#main-bio {
+    width: 70%;
+    float: left;
+}
+
+#bio-image {
+    float: left;
+    width: 200px;
+    margin-right: 2%;
+}
+
+#contact-info {
+    float: left;
+    width: 30%;
+    line-height: 150%;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a:link {
+    color: red;
+}
+
